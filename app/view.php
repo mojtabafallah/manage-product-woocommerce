@@ -14,6 +14,12 @@ class view
 
 
     }
+    public static function add_view_admin_group()
+    {
+        Views::render_view('all_product_group');
+
+
+    }
 	public static function add_view_admin_report()
     {
         Views::render_view('all_product_report');
